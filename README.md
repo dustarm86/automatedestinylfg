@@ -1,0 +1,2 @@
+# automatedestinylfg
+destinylfg script
