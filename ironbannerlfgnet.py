@@ -39,22 +39,21 @@ time.sleep(1.5)
 # selects PlayStation4 from drop down menu under "Post My Group"
 choose_platform = browser.find_element_by_xpath(".//*[@id='group-platform-select']/option[4]").click()
 
-# choose activity under "Post My Group". In this case, Warpriest CP on HM
-choose_activity = browser.find_element_by_xpath(".//*[@id='group-activity-select']/optgroup[12]/option[11]").click()
+# choose activity under "Post My Group". In this case, Iron Banner
+choose_activity = browser.find_element_by_xpath(".//*[@id='group-activity-select']/optgroup[20]/option[1]").click()
 
 # finds text field to add notes on finding members
 notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-notes_add.send_keys("#lfm Need 3 for HM WARPRIEST. Must have a mic, know all boss mechanics, and be +305 Light. MESSAGE AND FRIEND REQUEST ME ON PSN! (I WON'T ANSWER HERE)")
+notes_add.send_keys("#lfm Need 2 +300's, +2.0 KD player looking for people to join my group. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
 
 # clicks on LFM and then makes LFM post to site
 looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
 list_group = browser.find_element_by_xpath(".//*[@id='group-create-button']").click()
 
 # allows post to remain up for 5 minutes and then quits browser
-time.sleep(240)
+time.sleep(300)
 browser.quit()
 
 print("Script completed at:")
 print datetime.datetime.now()
 print("Opening next script now...\n")
-# import golgorothkingsfallhm

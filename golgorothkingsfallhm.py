@@ -11,9 +11,14 @@ assert 'DestinyLFG.Net | The Original Destiny LFG Site' in browser.title
 ps4_button = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[1]/div[1]/div/a[2]")
 ps4_button.click()
 
-# finds text field for gamertag and enters in their psn name
+# finds text field for gamertag and enters in their psn name manually with both level and light
 psn_name = browser.find_element_by_xpath(".//*[@id='gamertag-input']")
-psn_name.send_keys('conscious_acts')
+psn_name.send_keys('"Conscious_Acts"')
+enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
+level = browser.find_element_by_xpath(".//*[@id='level-input']")
+level.send_keys('40')
+light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
+light_level.send_keys('318')
 
 # clicks "I have mic" and "Sherpa" buttons
 i_have_mic = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[3]/div[1]/div[1]/label/span")
@@ -46,10 +51,10 @@ looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form
 list_group = browser.find_element_by_xpath(".//*[@id='group-create-button']").click()
 
 # allows post to remain up for 5 minutes and then quits browser
-time.sleep(3)
+time.sleep(240)
 browser.quit()
 
 print("Script completed at:")
 print datetime.datetime.now()
 print("Opening next script now...\n")
-import daughterskingsfallhm
+# import daughterskingsfallhm

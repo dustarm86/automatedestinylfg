@@ -50,11 +50,23 @@ notes_add.send_keys("#lfm Need 3 for HM WARPRIEST. Must have a mic, know all bos
 looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
 list_group = browser.find_element_by_xpath(".//*[@id='group-create-button']").click()
 
+time.sleep(3)
+
+# auto-respond to applicants
+your_group = browser.find_element_by_xpath(".//*[@id='chat']/div/div[1]/div[3]/div/div/div[1]/a/span").click()
+
+
+print("Found it")
+
+
+"""
 # allows post to remain up for 5 minutes and then quits browser
-time.sleep(240)
+time.sleep(9999999)
 browser.quit()
 
 print("Script completed at:")
 print datetime.datetime.now()
 print("Opening next script now...\n")
 # import golgorothkingsfallhm
+
+"""
