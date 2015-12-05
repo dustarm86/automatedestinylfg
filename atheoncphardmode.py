@@ -56,5 +56,5 @@ browser.quit()
 
 print("All scripts completed at:")
 print datetime.datetime.now()
-print("Opening 1st scipt now...\n")
+print("Opening 1st script now...\n")
 # import warpriestkingsfallhm

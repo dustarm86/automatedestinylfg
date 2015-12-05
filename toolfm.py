@@ -1,7 +1,5 @@
 import time
 import datetime
-# import os
-# import subprocess
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
