@@ -19,7 +19,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -47,7 +49,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys('#lfm +2.0 KD player with multiple Lighthouse clears looking to help others! Friend Request and Message me on PSN to join! PSN = Conscious_Acts')
+    notes_add.send_keys('#lfm +2.0 KD player with multiple Lighthouse clears looking to help others! Friend Request and Message me on PSN to join! PSN = ' + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -59,7 +61,7 @@ while True:
 
     print("1st Script Completed at:")
     print datetime.datetime.now()
-    print("Opening next scipt now...\n")
+    print("Opening next script now...\n")
 
     browser = webdriver.Firefox()
     browser.get('http://destinylfg.net')
@@ -74,7 +76,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -102,7 +106,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys('#lfm +2.0 KD player with multiple Lighthouse clears looking to help others! Friend Request and Message me on PSN to join! PSN = Conscious_Acts')
+    notes_add.send_keys('#lfm +2.0 KD player with multiple Lighthouse clears looking to help others! Friend Request and Message me on PSN to join! PSN = ' + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -114,7 +118,7 @@ while True:
 
     print("1st Script Completed at:")
     print datetime.datetime.now()
-    print("Opening next scipt now...\n")
+    print("Opening next script now...\n")
 
     browser = webdriver.Firefox()
     browser.get('http://destinylfg.net')
@@ -129,7 +133,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -157,7 +163,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 2 +300's, +2.0 KD player looking for people to join my group. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
+    notes_add.send_keys("#lfm Need 2 +300's, +2.0 KD player looking for people to join my group. Friend Request and Message me on PSN to join! PSN = " + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -184,7 +190,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -212,8 +220,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 3 for HM FRESH RUN. Must have a mic, know all boss mechanics, and be +300 Light. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
-
+    notes_add.send_keys("#lfm Need 3 for HM FRESH RUN. Must have a mic, know all boss mechanics, and be +300 Light. Friend Request and Message me on PSN to join! PSN = " + gamertag)
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
     list_group = browser.find_element_by_xpath(".//*[@id='group-create-button']").click()
@@ -239,7 +246,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -267,8 +276,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 3 for HM WARPRIEST. Must have a mic, know all boss mechanics, and be +305 Light. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
-
+    notes_add.send_keys("#lfm Need 3 for HM WARPRIEST. Must have a mic, know all boss mechanics, and be +305 Light. Friend Request and Message me on PSN to join! PSN = " + gamertag)
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
     list_group = browser.find_element_by_xpath(".//*[@id='group-create-button']").click()
@@ -294,7 +302,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -322,7 +332,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 3 for HM GOLGOROTH. Must have a mic, know all boss mechanics, and be +305 Light. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
+    notes_add.send_keys("#lfm Need 3 for HM GOLGOROTH. Must have a mic, know all boss mechanics, and be +305 Light. Friend Request and Message me on PSN to join! PSN = " + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -349,7 +359,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -377,7 +389,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 3 for HM DAUGHTERS. Must have a mic, know all boss mechanics, and be +305 Light. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
+    notes_add.send_keys("#lfm Need 3 for HM DAUGHTERS. Must have a mic, know all boss mechanics, and be +305 Light. Friend Request and Message me on PSN to join! PSN = " + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -404,7 +416,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -432,7 +446,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys("#lfm Need 3 for HM ORYX. Must have a mic, Touch of Malice, know all boss mechanics(No Knight Strategy), and be +305 Light. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
+    notes_add.send_keys("#lfm Need 3 for HM ORYX. Must have a mic, Touch of Malice, know all boss mechanics(No Knight Strategy), and be +305 Light. Friend Request and Message me on PSN to join! PSN = " + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
@@ -455,7 +469,9 @@ while True:
     psn_name.send_keys(gamertag)
     enter_manually = browser.find_element_by_xpath(".//*[@id='guardian-info']/form/div[2]/div/div[1]/div[2]/a").click()
     level = browser.find_element_by_xpath(".//*[@id='level-input']")
+    time.sleep(2)
     level.send_keys('40')
+    time.sleep(2)
     light_level = browser.find_element_by_xpath(".//*[@id='light-input']")
     light_level.send_keys('318')
 
@@ -483,7 +499,7 @@ while True:
 
     # finds text field to add notes on finding members
     notes_add = browser.find_element_by_xpath(".//*[@id='group-notes-input']")
-    notes_add.send_keys('#lfm I am giving away Atheon CP! MESSAGE AND FRIEND REQUEST ME ON PSN FOR CHECKPOINT! PSN = Conscious_Acts')
+    notes_add.send_keys('#lfm I am giving away Atheon CP! Friend Request and Message me on PSN to join! PSN = ' + gamertag)
 
     # clicks on LFM and then makes LFM post to site
     looking_for_members = browser.find_element_by_xpath(".//*[@id='group-info']/form/div[4]/div/div[1]/div[2]/a").click()
